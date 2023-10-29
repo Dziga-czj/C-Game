@@ -93,7 +93,7 @@ int main(void)
 
     InitWindow(screen.x, screen.y, "Game");
 
-    char state = 'g';
+    char state = 't';
 
     HUD hud = hudInit();
 
