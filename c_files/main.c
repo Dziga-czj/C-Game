@@ -116,8 +116,6 @@ int main(void)
     ButtonArray bArray = bArray_create(10, LoadTexture("ressources/sprites/boutons.png"));
     initButtons(&bArray);
     
-    Texture2D textureHerbe = LoadTexture("ressources/sprites/herbe1.png");
-
     Camera2D camera = { 0 };
     camera.target = (Vector2){ player.pos.x + 32.0f, player.pos.y + 32.0f };
     camera.offset = (Vector2){ screen.x/2.0f, screen.y/2.0f };
